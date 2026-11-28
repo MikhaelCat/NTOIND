@@ -4,3 +4,14 @@ __pycache__/
 venv/
 .venv/
 env/
+
+# Генерируемые предсказания моделей (создаются при обучении, не хранятся в репо)
+*.npy
+*.npz
+solution/gpu_full_*/
+gpu_full_*/
+
+# Артефакты обучения
+solution/fold_*.npz
+solution/gpu_full_mdeberta_full512/
+solution/gpu_full_xlm_full512/
